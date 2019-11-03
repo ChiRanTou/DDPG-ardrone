@@ -1,0 +1,10 @@
+# Algortihm Parameters
+alpha: 0.01 # learning rate
+gamma: 0.8 # reward decay
+epsilon: 0.9
+replace_target_iter: 5000
+memory_size: 20000
+batch_size: 64
+nepisodes: 500
+nsteps: 200
+

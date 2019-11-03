@@ -1,0 +1,9 @@
+# This file is to stor the hyperparameter for q learnning algorithm
+# Algortihm Parameters
+alpha: 0.1
+gamma: 0.8
+epsilon: 0.9
+epsilon_discount: 0.999 # 1098 eps to reach 0.1
+nepisodes: 5
+nsteps: 200
+

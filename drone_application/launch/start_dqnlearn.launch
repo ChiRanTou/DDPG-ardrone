@@ -1,0 +1,14 @@
+<!--
+    Code for DQN Learning
+    Application created by: Grant Guo <bgy81grant@163.com>
+-->
+
+<launch>
+    <!-- Load the parameters for the drone -->
+    <rosparam command="load" file="$(find drone_application)/config/drone_params.yaml" />
+    <!-- Load the parameters for the algorithm -->
+    <rosparam command="load" file="$(find drone_application)/config/dqn_params.yaml" />
+
+    <!-- Launch the code -->
+    <node pkg="drone_application" name="learn_fly" type="main_dqn.py" output="screen"/> 
+</launch>

@@ -1,0 +1,12 @@
+<!--
+    Application created by: Grant Guo <bgy81grant@163.com>
+-->
+
+<launch>
+    <!-- Load the parameters for the algorithm -->
+    <rosparam command="load" file="$(find drone_application)/config/drone_params.yaml" />
+
+    <!-- Launch the code -->
+    <!--<node pkg="drone_application" name="try_code" type="test_fly.py" output="screen"/>-->
+    <node pkg="drone_application" name="test_to_fly" type="test_fly.py" output="screen"/>  
+</launch>

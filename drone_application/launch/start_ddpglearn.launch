@@ -1,0 +1,16 @@
+<!--
+    Date of creation: 17/09/2019
+    Application created by: Grant Guo <bgy81grant@163.com>
+-->
+
+<launch>
+    <!-- Load the parameters for the drone -->
+    <rosparam command="load" file="$(find drone_application)/config/drone_params.yaml" />
+    <!-- Load the parameters for the algorithm -->
+    <rosparam command="load" file="$(find drone_application)/config/ddpg_params.yaml" />
+    <!--<rosparam command="load" file="$(find drone_application)/config/ddpg_param_try.yaml" />-->
+    
+    <!-- Launch the training system -->
+    <!--<node pkg="drone_application" name="learn_fly" type="ddpg_training.py" output="screen"/>-->
+    <node pkg="drone_application" name="learn_fly" type="main.py" output="screen"/>
+</launch>

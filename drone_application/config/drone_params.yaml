@@ -1,0 +1,14 @@
+# This file is to store the drone parameter for desired trajectory
+# Environment Parameters
+desired_pose:
+    x: 0.0
+    y: 0.0
+    z: 1.5
+max_pose:
+    max_x: 3
+    max_y: 3
+max_altitude: 3.0   # in meters
+min_altitude: 0.3   # in meters
+max_incl: 0.7       # in rads
+speed_value: 0.4    # in m/s
+run_step: 0.1       # in seconds

@@ -1,0 +1,24 @@
+# Hyperparamter for ddpg
+
+env_name : QuadcopterLiveShow-v0
+lr_actor : 0.001
+lr_critic : 0.001
+critic_l2_reg : 0.01
+gamma : 0.99
+nb_epochs: 100
+nb_cycles: 10
+nb_train: 50
+nb_rollout_steps: 20
+nb_test_rollouts: 10
+batch_size: 128
+replay_size: 500
+clip_range: 1
+save_dir: save_models/
+polyak: 0.95
+total_frames: 500
+log_dir: logs
+env_type: None
+seed: 123
+display_interval: 10
+cuda: True
+
