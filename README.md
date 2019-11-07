@@ -6,3 +6,6 @@ ardrone autonomous control with DDPG
 2.ardrone_autonomy
 
 3.ros_vrpn_client (For Optitrack Testing)
+
+# Contact
+email: bgy81grant@163.com
