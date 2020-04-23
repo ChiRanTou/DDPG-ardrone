@@ -2,6 +2,7 @@
 ardrone autonomous control with DDPG
 # Package Require
 1.tum_simulator
+(This folder contains the original Parrot AR Drone flight control files)
 
 2.ardrone_autonomy
 
